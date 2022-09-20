@@ -13,7 +13,7 @@ body {
 }
 video {
   width: auto;
-  height: calc(100vh - 24px);
+  height: calc(100vh - 40px);
 }
 .content-box {
   position: absolute;
