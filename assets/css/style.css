@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #000;
+}
+.video-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+video {
+  width: auto;
+  height: 100vh;
+}
+.content-box {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+.content-box p {
+  margin-top: 0;
+  color: #fff;
+}
+.title-box p{
+  font-size: 14px;
+}
+.name-box p {
+  font-size: 12px;
+}
+.like-btn {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+.like-btn svg {
+  font-size: 18px;
+}
+.like-btn p {
+  margin-top: 6px;
+}
+
+.slick-prev, .slick-next {
+  display: none !important;
+}
+.slick-dots{
+  display: none !important;
+}
+.slick-dotted.slick-slider{
+  margin-bottom: 0 !important;
+}
